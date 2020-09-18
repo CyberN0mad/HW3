@@ -184,9 +184,9 @@ public class Main {
     }
     public static void Thor() {
         Random m = new Random();
-        int ranThor = m.nextInt(2) + 1;
-        System.out.println(ranThor);
-        if (ranThor == 1) {
+        int attackThor = m.nextInt(2) + 1;
+        System.out.println(attackThor);
+        if (attackThor == 1) {
             isSleeping = true;
             System.out.println("Boss bashed");
 
